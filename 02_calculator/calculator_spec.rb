@@ -55,7 +55,8 @@ end
 describe "#multiply" do
 
   it "multiplies two numbers" do 
-  end
+  multiply(2,2).should == 4
+end
 
   it "multiplies several numbers" do
   end
